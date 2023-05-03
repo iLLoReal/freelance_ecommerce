@@ -82,7 +82,7 @@ example: nginx, apache
 <!-- LICENSE -->
 ## License
 
-Refer to the LICENSE file included in this repository.
+Refer to the <a href="LICENSE">LICENSE</a> file included in this repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
