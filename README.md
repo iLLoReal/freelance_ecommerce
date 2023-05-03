@@ -72,7 +72,7 @@ example: nginx, apache
 ## Roadmap
 
 - [x] Add Readme
-- [ ] Add LICENSE.txt
+- [x] Add LICENSE
 - [ ] Add strucrture
 - [ ] Add styling
 
