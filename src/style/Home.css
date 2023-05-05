@@ -1,0 +1,101 @@
+/***** GLOBAL *****/
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+/***** TOP *****/
+
+.header {
+    height: auto;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button{
+    background-color: #E8E8E8;
+    min-height: 1.5rem;
+    min-width: 5rem;
+    margin-left: 2rem;
+    border-radius: 0.2rem;
+    box-shadow: 10px 10px linear-gradient(to right #E8E8E8, #F0F0F0 100%, #FFFF 100%);
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 8rem);
+    max-width: 50vw;
+    text-align: center;
+}
+
+.header>.background-image {
+    height: 33vh;
+    background-size: cover;
+    background-position: 50% 65%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/15/07/01/interior-5406644_1280.jpg);
+    background-repeat: no-repeat;
+    padding: 5% 15%;
+    margin: 0;
+}
+
+.background-image>background-image {
+    width: 200px;
+    height: 100%;
+}
+
+.button-container {
+    max-width: max-content;
+}
+
+.button-label {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: yellow;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 5%;
+    border: none;
+}
+
+/***** BOTTOM *****/
+
+.products-container {
+    height: 100%;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.products-label {
+    font-size: 2rem;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50vh, 2fr));
+    justify-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin: 5vh 10vw;
+}
+
+.products>.products-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-color: red;
+}
