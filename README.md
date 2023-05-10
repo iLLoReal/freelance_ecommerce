@@ -73,8 +73,8 @@ example: nginx, apache
 
 - [x] Add Readme
 - [x] Add LICENSE
-- [ ] Add strucrture
-- [ ] Add styling
+- [x] Add strucrture
+- [x] Add styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
