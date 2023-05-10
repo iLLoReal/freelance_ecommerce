@@ -1,0 +1,24 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50vh, 2fr));
+    justify-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin: 5vh 10vw;
+}
+
+.products>.products-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-color: red;
+    font-size: 0;
+}
+
+.products>.products-item:hover {
+    font-size: 1rem;
+    color: white;
+}

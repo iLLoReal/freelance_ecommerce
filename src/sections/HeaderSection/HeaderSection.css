@@ -1,0 +1,13 @@
+.header {
+    height: auto;
+}
+
+.header>.background-image {
+    height: 33vh;
+    background-size: cover;
+    background-position: 50% 65%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/15/07/01/interior-5406644_1280.jpg);
+    background-repeat: no-repeat;
+    padding: 5% 15%;
+    margin: 0;
+}

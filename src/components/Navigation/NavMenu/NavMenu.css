@@ -1,0 +1,11 @@
+.nav-item {
+    margin-bottom: 1vh;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 8rem);
+    max-width: 50vw;
+    text-align: center;
+}

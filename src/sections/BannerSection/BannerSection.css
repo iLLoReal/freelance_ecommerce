@@ -1,0 +1,23 @@
+
+.background-image>background-image {
+    width: 200px;
+    height: 100%;
+}
+
+.button-container {
+    max-width: max-content;
+}
+
+.button-label {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: yellow;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 5%;
+    border: none;
+}
