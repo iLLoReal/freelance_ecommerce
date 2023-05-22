@@ -37,6 +37,7 @@
 ## About The Project
 
 A simple e-commerce website html/css template
+--UPDATE : Refactored into using React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,14 +47,18 @@ A simple e-commerce website html/css template
 
 ### Prerequisites
 
-There are no prerequisite
+[npm](https://npmjs.org)
 
 ### Installation
 
 ```sh
 git clone https://github.com/iLLoReal/freelance_ecommerce
 ```
-Or with the github UI : code > download as ZIP > extract to the root of you web folder. 
+Or with the github UI : code > download as ZIP > extract to the root of you web folder.
+```sh
+npm install
+```
+
 See usage for integration
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -62,9 +67,20 @@ See usage for integration
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Integrate within any structured project deployed with a web server.
-example: nginx, apache
+dev:
+```sh
+npm run dev
+```
 
+accessible through http://localhost:5173/
+
+prod:
+```sh
+npm run build
+```
+
+Files are built inside the src/dist/ folder, 
+which should be used as the root folder for server integration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
